@@ -1,4 +1,4 @@
-const commandCenter = require("./commands.js")
+const databaseModule = require("./database_module.js")
 const user = require("./user.js")
 
 function startDatabaseTool(){
@@ -12,7 +12,7 @@ function commandModule(command){
     if(command != "exit"){
         switch(command){
             case "connect":
-                commandCenter.connectDatabaseServer();
+                databaseModule.connectDatabaseServer();
                 break;
             default:
                 console.log("Incorrect Command try again!");
