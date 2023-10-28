@@ -1,0 +1,15 @@
+{
+  "name": "database-scripting-terminal",
+  "version": "1.0.0",
+  "description": "Terminal application to run multiple script on an array of databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^10.0.1"
+  }
+}
